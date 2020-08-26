@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Experiment</string>
+
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">N676YkLQxZNG5BkPXE3s5KglQlEgDbdIYAgC5L8y</string>
+    <string name="back4app_client_key">zZiL3s7uF7cWKUOuU77YzspzL6rDdytYqGfLdsWw</string>
+
+</resources>
