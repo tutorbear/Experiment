@@ -1,0 +1,58 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="86dp"
+            android:height="86dp"
+            android:viewportWidth="86"
+            android:viewportHeight="86">
+            <path
+                android:name="orange_ciricle"
+                android:pathData="M 43.4 10.7 C 34.731 10.7 26.408 14.148 20.278 20.278 C 14.148 26.408 10.7 34.731 10.7 43.4 C 10.7 52.069 14.148 60.392 20.278 66.522 C 26.408 72.652 34.731 76.1 43.4 76.1 C 50.304 76.1 57.035 73.913 62.621 69.855 C 68.206 65.796 72.366 60.071 74.5 53.505 C 76.633 46.938 76.633 39.862 74.5 33.295 C 72.366 26.729 68.206 21.004 62.621 16.945 C 57.035 12.887 50.304 10.7 43.4 10.7 Z"
+                android:strokeColor="#f68c1e"
+                android:strokeWidth="8"
+                android:strokeLineCap="round"
+                android:strokeMiterLimit="10"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="vector">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+
+                    android:repeatMode="restart"
+                    android:repeatCount="infinite"
+                    android:propertyName="alpha"
+                    android:startOffset="1900"
+                    android:duration="100"
+                    android:valueFrom="1"
+                    android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+
+                    android:repeatMode="restart"
+                    android:repeatCount="infinite"
+                    android:propertyName="alpha"
+                    android:duration="400"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+
+                    android:repeatMode="restart"
+                    android:repeatCount="infinite"
+                    android:propertyName="alpha"
+                    android:startOffset="626"
+                    android:duration="174"
+                    android:valueFrom="1"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

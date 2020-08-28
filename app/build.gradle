@@ -34,4 +34,6 @@ dependencies {
 
     //Discrete scroll view
     implementation  'com.yarolegovich:discrete-scrollview:1.1.3'
+
+    implementation "com.ncorti:slidetoact:0.9.0"
 }
